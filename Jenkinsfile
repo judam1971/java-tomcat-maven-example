@@ -4,7 +4,7 @@ pipeline {
         stage ('Build Servlet Project') {
             steps {
                 /*For windows machine */
-               bat  'mvn clean package'
+               bat  'C:\\"Program Files"\\apache-maven-3.6.1\\binmvn clean package'
  
                 /*For Mac & Linux machine */
                // sh  'mvn clean package'
